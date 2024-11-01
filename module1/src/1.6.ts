@@ -1,5 +1,5 @@
 //Learning function
-
+{
 function add(num1: number,num2:number=10):number{
     return num1+num2;
 }
@@ -15,4 +15,8 @@ const poorUser={
     addBalance(balance:number):string{
         return `my new balace is : ${this.banlace+balance}`
     }
+}
+//array map
+const arr: number[]=[1,4,10];
+const newArr : number[] = arr.map((elemnt:number):number=>elemnt*elemnt);
 }
