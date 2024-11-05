@@ -7,7 +7,7 @@ const poorUser={
 
    //spread operator
    
-    //destructuring
+   
 
 const bros1 : string[]=['mir','firoz','mizan' ]
 const bros2 : string[]=['tonmoy','nahid','rahat']
@@ -31,6 +31,6 @@ const mentorList ={
  //rest operator
  const greetFriends=(...friends:string[])=>{
     
-    friends.forEach((friend:string)=>console.log(`Hi ${friend1} ${friend2} ${friend3}`);)
+    // friends.forEach((friend:string)=>console.log(`Hi ${friend1} ${friend2} ${friend3}`);)
  }
  greetFriends("Abul","kabul","babul","ubul")

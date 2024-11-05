@@ -7,8 +7,7 @@ add(2,2)
 
 const addArrow=(num1:number,num2:number):number=>num1+num2;
 
-//object er vitor function thakle seta method
-
+//object er vitor function thakle seta method 
 const poorUser={
     name:"Rayhan",
     banlace:0,
