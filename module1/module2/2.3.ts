@@ -33,6 +33,5 @@ const manush : GenericTuple<string,string>= ['Mr. X','Mr. Y']
 
 const UserWithId : GenericTuple<number,{name:string,email:string}>=[1234,{name:'persian',email:'a@gamil'}]
 
-
     //
 }
