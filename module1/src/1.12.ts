@@ -30,8 +30,7 @@ const throwError=(msg:String):never=>{
     throw new Error(msg);
 }
 
-throwError("error")
-
+throwError("error line 33")
 
 
 
